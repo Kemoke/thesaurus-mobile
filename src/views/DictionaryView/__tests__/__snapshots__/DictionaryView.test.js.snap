@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dictionary view should render correct list component 1`] = `
+<WordListItem
+  item={
+    Object {
+      "synonyms": Array [],
+      "word": "test",
+    }
+  }
+/>
+`;
+
+exports[`Dictionary view should render empty properly 1`] = `
+<KeyboardAvoidingView
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+  verticalOffset={40}
+>
+  <Themed.Header
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#FFF",
+        },
+        "text": "DICTIONARY",
+      }
+    }
+  />
+  <ForwardRef(Themed.SearchBar)
+    lightTheme={true}
+    onChangeText={[Function]}
+    placeholder="Search for synonyms"
+    testID="searchBar"
+    value=""
+  />
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "color": "#AAAAAA",
+          "fontSize": 20,
+          "marginLeft": 80,
+          "marginRight": 80,
+          "textAlign": "center",
+        }
+      }
+    >
+      No synonyms found
+    </Component>
+  </Component>
+</KeyboardAvoidingView>
+`;
+
+exports[`Dictionary view should render properly 1`] = `
+<KeyboardAvoidingView
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+  verticalOffset={40}
+>
+  <Themed.Header
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#FFF",
+        },
+        "text": "DICTIONARY",
+      }
+    }
+  />
+  <ForwardRef(Themed.SearchBar)
+    lightTheme={true}
+    onChangeText={[Function]}
+    placeholder="Search for synonyms"
+    testID="searchBar"
+    value=""
+  />
+  <FlatList
+    data={
+      Array [
+        Object {
+          "synonyms": Array [
+            "test2",
+            "test3",
+          ],
+          "word": "test",
+        },
+        Object {
+          "synonyms": Array [
+            "test",
+          ],
+          "word": "test2",
+        },
+        Object {
+          "synonyms": Array [
+            "test",
+          ],
+          "word": "test3",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    testID="wordList"
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</KeyboardAvoidingView>
+`;

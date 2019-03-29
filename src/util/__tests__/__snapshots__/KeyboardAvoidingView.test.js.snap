@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KeyboardAvoidingView should render properly 1`] = `
+<Component
+  style={
+    Array [
+      undefined,
+      Object {
+        "height": "100%",
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+  verticalOffset={0}
+/>
+`;
+
+exports[`KeyboardAvoidingView should render style array 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "height": "100%",
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+      Object {
+        "height": 50,
+      },
+    ]
+  }
+  verticalOffset={0}
+/>
+`;

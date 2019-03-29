@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Word View should render correctly 1`] = `
+<KeyboardAvoidingView
+  verticalOffset={40}
+>
+  <Themed.Header
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#FFF",
+        },
+        "text": "ADD NEW WORD",
+      }
+    }
+  />
+  <ScrollViewMock
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 32,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "fontSize": 16,
+          "marginLeft": 10,
+          "marginTop": 16,
+        }
+      }
+    >
+      Word
+    </Component>
+    <ForwardRef(Themed.Input)
+      onChangeText={[Function]}
+      placeholder="Enter word"
+      testID="wordInput"
+      value=""
+    />
+    <Component
+      style={
+        Object {
+          "fontSize": 16,
+          "marginLeft": 10,
+          "marginTop": 16,
+        }
+      }
+    >
+      Synonyms
+    </Component>
+    <Component
+      key="0"
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "width": "100%",
+        }
+      }
+    >
+      <ForwardRef(Themed.Input)
+        containerStyle={
+          Object {
+            "width": "90%",
+          }
+        }
+        onChangeText={[Function]}
+        placeholder="Enter synonym"
+        testID="synonymInput0"
+        value=""
+      />
+      <Icon
+        allowFontScaling={false}
+        color="#dc3545"
+        name="md-trash"
+        onPress={[Function]}
+        size={25}
+        style={
+          Object {
+            "marginRight": 12,
+          }
+        }
+        testID="synonymRemove0"
+      />
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginLeft": 10,
+          "marginTop": 8,
+          "width": 150,
+        }
+      }
+      testID="addSynonym"
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#3CBD3F"
+        name="ios-add"
+        size={25}
+        style={
+          Object {
+            "marginRight": 8,
+          }
+        }
+      />
+      <Component
+        style={
+          Object {
+            "color": "#3CBD3F",
+          }
+        }
+      >
+        Add synonym
+      </Component>
+    </TouchableOpacity>
+    <Component
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 16,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "width": 150,
+          }
+        }
+      >
+        <ForwardRef(Themed.Button)
+          onPress={[Function]}
+          title="Save"
+        />
+      </Component>
+    </Component>
+  </ScrollViewMock>
+</KeyboardAvoidingView>
+`;

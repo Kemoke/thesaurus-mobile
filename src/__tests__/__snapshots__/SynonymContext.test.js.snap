@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SynonymContextWrapper should wrap component properly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`SynonymContextWrapper should wrap component properly 2`] = `
+<View
+  synonymContext={
+    Object {
+      "words": Object {
+        "test": Array [
+          "test",
+        ],
+      },
+    }
+  }
+  testProp="test"
+/>
+`;

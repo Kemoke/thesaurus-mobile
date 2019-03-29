@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Word List Item should render expanded properly 1`] = `
+<Component>
+  <Themed.ListItem
+    badge={
+      Object {
+        "value": 2,
+      }
+    }
+    bottomDivider={true}
+    chevron={true}
+    onPress={[Function]}
+    testID="wordItem"
+    title="test"
+  />
+  <FlatList
+    data={
+      Array [
+        "test1",
+        "test2",
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;
+
+exports[`Word List Item should render properly 1`] = `
+<Component>
+  <Themed.ListItem
+    badge={
+      Object {
+        "value": 2,
+      }
+    }
+    bottomDivider={true}
+    chevron={true}
+    onPress={[Function]}
+    testID="wordItem"
+    title="test"
+  />
+</Component>
+`;
+
+exports[`Word List Item should render synonym item properly 1`] = `
+<View>
+  <Themed.ListItem
+    bottomDivider={true}
+    containerStyle={
+      Object {
+        "backgroundColor": "#EEEEEE",
+      }
+    }
+    contentContainerStyle={
+      Object {
+        "paddingLeft": 16,
+      }
+    }
+    title="test1"
+  />
+</View>
+`;
