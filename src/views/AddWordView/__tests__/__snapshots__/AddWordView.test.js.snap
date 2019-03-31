@@ -17,6 +17,7 @@ exports[`Add Word View should render correctly 1`] = `
   <ScrollViewMock
     contentContainerStyle={
       Object {
+        "backgroundColor": "#FFF",
         "paddingBottom": 32,
         "paddingLeft": 16,
         "paddingRight": 16,
